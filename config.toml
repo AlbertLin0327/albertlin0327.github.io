@@ -1,0 +1,119 @@
+baseurl = "https://albertlin0327.github.io/"
+metaDataFormat = "yaml"
+title = "Albert Lin's Blog"
+theme = "blist"
+
+DefaultContentLanguage = "en"
+DefaultContentLanguageInSubdir = true
+[languages]
+  [languages.en]
+    contentDir = "content/en" #English
+    weight = 1
+    languageName = "English"
+    [languages.en.params]
+      introTitle = "Hello! I'm Albert Lin"
+      introSubtitle = "A 21 y/o programmer. National Taiwan University CS and Finance double major undergrad."
+      introPhoto = "/photo.jpeg"
+      logo = "/logo.png"
+
+    [[languages.en.menu.main]]
+        name = "Blog"
+        url = "blog"
+        weight = 1
+
+    [[languages.en.menu.main]]
+        name = "Tags"
+        url = "tags"
+        weight = 2
+
+    [[languages.en.menu.main]]
+        name = "About"
+        url = "about"
+        weight = 3
+
+    [[languages.en.menu.main]]
+        name = "Resume"
+        url = "resume.pdf"
+        weight = 4
+    
+    
+
+
+  [languages.cn]
+    contentDir = "content/cn" # Chinese
+    weight = 2
+    languageName = "中文"
+    [languages.cn.params]
+      introTitle = "你好！我是林歆凱。"
+      introSubtitle = "一個 21 歲的軟體工程師。現在就讀台灣大學，雙主修資訊工程學系跟財務金融學系。"
+      introPhoto = "/photo.jpeg"
+      logo = "/logo.png"
+
+    [[languages.cn.menu.main]]
+        name = "文章"
+        url = "blog"
+        weight = 1
+
+
+    [[languages.cn.menu.main]]
+        name = "標籤"
+        url = "tags"
+        weight = 2
+
+    [[languages.cn.menu.main]]
+        name = "關於我"
+        url = "about"
+        weight = 3
+
+    [[languages.cn.menu.main]]
+        name = "履歷"
+        url = "resume.pdf"
+        weight = 4
+
+[params]
+  # Enable the darkmode toggle in header
+  darkModeToggle = true
+  
+  # Enable search in header
+  enableSearch = false
+
+  # Custom copyright - optional
+  copyright = "Copyright © 2022 - Albert Lin | Powered by Hugo & blist"
+  favicon = "/favicon.png"
+
+  # Color for the intro details and social links block, not applicable for dark mode
+  # Supported values: Any color from TailwindCSS default colors
+  # Reference: https://tailwindcss.com/docs/customizing-colors
+  ascentColor = "bg-gray-300"
+
+  # The page bundle that is shown on the front page
+  frontBundle = "blog"
+
+  math = true
+
+[params.homepage.social]
+  # Global params xommon for both languages
+  title = "Contact me ・ 聯絡我"
+  description = "Let's build something great together"
+  linkedin = "https://www.linkedin.com/in/albert-hk-lin/"
+  github = "https://github.com/AlbertLin0327"
+  medium = "https://medium.com/@linhsinkai"
+  twitter = "https://twitter.com/Albert_Lin0"
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+
+[build]
+  writeStats = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
+  [markup.goldmark.renderer]
+    # Enable to include inline HTML
+    unsafe = true
