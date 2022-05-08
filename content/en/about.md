@@ -3,7 +3,6 @@ author: Albert Lin
 title: About Me
 date: 2022-05-08
 description: "About me"
-tags: ["about-me"]
 type: about
 ---
 

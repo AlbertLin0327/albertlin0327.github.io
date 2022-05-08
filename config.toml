@@ -18,7 +18,7 @@ DefaultContentLanguageInSubdir = true
 
     [[languages.en.menu.main]]
         name = "Blog"
-        url = "blog"
+        url = "/blog"
         weight = 1
 
     [[languages.en.menu.main]]
@@ -51,7 +51,7 @@ DefaultContentLanguageInSubdir = true
 
     [[languages.cn.menu.main]]
         name = "文章"
-        url = "blog"
+        url = "/blog"
         weight = 1
 
 
