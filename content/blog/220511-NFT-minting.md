@@ -4,7 +4,7 @@ title: "Smart Contract Whitelist Mechanism"
 date: 2022-05-11
 description: "Common methods of Smart Contract Whitelist Mechanism"
 tags: ["英文", "Solidity", "Blockchain", "NFT"]
-thumbnail: /Start.png
+thumbnail: /NFT_mint.png
 ---
 
 _Noted that this was previously published on medium and move to my blog._

@@ -1,7 +1,7 @@
 ---
 author: "Albert Lin"
 title: "開始提筆寫下我的人生"
-date: 2022-05-08
+date: 2022-05-09
 description: "或許維持一個部落格是我早就應該被下的決定，但是又有誰知道呢"
 tags: ["中文", "sentiment"]
 thumbnail: /Start.png
